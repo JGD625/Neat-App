@@ -1,0 +1,22 @@
+import React, { Component } from 'react'
+import Hero from '../../components/hero/Hero'
+import SearchHero from '../../components/hero/SearchHero'
+import Carousel from '../../components/carousel/Carousel'
+
+
+export default class Home extends Component {
+  
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    return (
+      <div>
+        <Hero />
+        <SearchHero />
+        <Carousel />
+      </div>
+    )
+  }
+}

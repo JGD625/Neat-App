@@ -1,0 +1,24 @@
+.liquor-list-item-detail {
+  width: 800px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 4px solid lightgray;
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.img-placeholder {
+  width: 100px;
+  height: 100px;
+  background: darkgray;
+  float: left;
+  margin: 20px;
+}
+
+.detail-text-container {
+  display: flex;
+  flex-direction: column;
+}

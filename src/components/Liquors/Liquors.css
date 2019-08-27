@@ -1,0 +1,41 @@
+.liquor-list-item {
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    height: 100px;
+    width: 500px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filter-container {
+    margin-left: 100px;;
+    margin-right: auto;
+    width: 150px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.filter-button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid gray;
+    font-size: 1.5rem;
+}
+
+.details-button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid gray;
+    font-size: 1rem;
+}
+
+.filtered-section-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
