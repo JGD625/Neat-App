@@ -1,0 +1,11 @@
+.login-form-container label{
+    color: white;
+    font-size: 2rem;
+}
+
+.login-form-container {
+    margin-top: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}

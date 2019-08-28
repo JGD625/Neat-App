@@ -64,7 +64,7 @@ class Profile extends Component {
             </ul>
           ))}
         </div>
-        <Link to="/">Update profile?</Link>
+      
       </div>
     );
   };

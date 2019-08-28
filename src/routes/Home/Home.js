@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Hero from '../../components/hero/Hero'
-import SearchHero from '../../components/hero/SearchHero'
+import AccountHero from '../../components/hero/AccountHero'
 import Carousel from '../../components/carousel/Carousel'
 
 
@@ -14,7 +14,7 @@ export default class Home extends Component {
     return (
       <div>
         <Hero />
-        <SearchHero />
+        <AccountHero />
         <Carousel />
       </div>
     )
