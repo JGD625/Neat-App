@@ -4,7 +4,7 @@ import Header from './components/header/Header'
 import NotFoundPage from './routes/NotFoundPage/NotFoundPage'
 import Home from './routes/Home/Home'
 import LiquorList from './components/LiquorList/LiquorList'
-
+import ArticleList from './routes/ArticleList/ArticleList'
 
 
 
@@ -21,7 +21,8 @@ class App extends Component {
     <main className='App'>
     <Switch>
     <Route exact path='/' component={Home} />
-    <Route exact path='/liquorlist' component={LiquorList} />
+    <Route path='/liquorlist' component={LiquorList} />
+    <Route path='/articlelist' component={ArticleList} />
     <Route component={NotFoundPage} />
     </Switch>
     </main>

@@ -1,0 +1,26 @@
+.article-item {
+    background: white;
+    height: 100px;
+}
+
+.article-list {
+    color: black;
+    background: white;
+    width: 280px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.article-list ul {
+    list-style-type: none;
+}
+
+.article-author-name-style {
+    font-size: 1 rem;
+    font-style: italic;
+    color: gray;
+}
+
+.article-detail-button {
+ margin-left: 10px;
+}

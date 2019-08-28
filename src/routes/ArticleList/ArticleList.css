@@ -1,0 +1,10 @@
+.article-list-container {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.past-articles-style {
+    color: white;
+}

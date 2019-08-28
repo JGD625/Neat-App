@@ -1,0 +1,26 @@
+.article-detail-container {
+  width: 600px;
+  margin-left: 25px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #fff;
+}
+
+.article-title-style {
+  font-size: 2rem;
+}
+
+.article-detail-author-name-style {
+  font-size: 1rem;
+  font-style: italic;
+  padding: 10px;
+}
+
+.article-text-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

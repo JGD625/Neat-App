@@ -20,13 +20,23 @@
 }
 
 .slide-arrow.right {
-    right: .5rem;
+    right: -4rem;
     position: absolute;
     top: 50%;
 }
 
 .slide-arrow.left {
-    left: .5rem;
+    left: -4rem;
     position: absolute;
     top: 50%;
+}
+
+.image-title {
+    font-size: 3rem;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    color: white;
+    text-decoration: none;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
 }
