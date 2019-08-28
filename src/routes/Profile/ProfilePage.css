@@ -1,0 +1,44 @@
+.user-profile-page-container {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    background: #fff;
+    border: 5px solid gray;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile-container {
+    width: 800px;
+    height: 80%;
+    background: white;
+}
+
+.profile-picture {
+    background: black;
+    border: none;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.user-profile-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-profile-container ul {
+    list-style-type: none;
+}
+
+.user-user_name-style {
+   font-size: 1.5rem;
+}

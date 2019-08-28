@@ -6,7 +6,11 @@ class Navigation extends Component {
     render() {
     return (
       <section className='navigation'>
-        LOG IN | REGISTER
+        <Link to="/login">
+        LOG IN
+        </Link> | <Link to="/register">
+          REGISTER
+        </Link>
       </section>
     );
   }
